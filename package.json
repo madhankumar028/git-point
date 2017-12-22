@@ -163,7 +163,7 @@
   "collective": {
     "type": "opencollective",
     "url": "https://opencollective.com/git-point",
-    "logo": "https://opencollective.com/opencollective/logo.txt"
+    "logo": "https://opencollective.com/opencollective/logo.svg"
   },
   "repository": {
     "type": "git",

@@ -211,7 +211,8 @@ class Repository extends Component {
     const { refreshing } = this.state;
 
     const initalRepository = navigation.state.params.repository;
-    const pulls = issues.filter(issue => issue.hasOwnProperty('pull_request')); // eslint-disable-line no-prototype-builtins
+    // eslint-disable-next-line no-prototype-builtins
+    const pulls = issues.filter(issue => issue.hasOwnProperty('pull_request'));
     const pureIssues = issues.filter(issue => {
       // eslint-disable-next-line no-prototype-builtins
       return !issue.hasOwnProperty('pull_request');

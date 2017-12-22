@@ -176,10 +176,10 @@
             "shouldComponentUpdate",
             "componentWillUpdate",
             "componentDidUpdate",
-            "componentWillUnmount",
-          ],
-        },
-      },
-    ],
+            "componentWillUnmount"
+          ]
+        }
+      }
+    ]
   }
 }
